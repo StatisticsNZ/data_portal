@@ -4253,8 +4253,8 @@
     },
     {
         "class": "Health",
-        "indicator_name": "By region",
-        "type": "Weekly deaths",
+        "indicator_name": "Weekly deaths by region",
+        "type": "Total deaths (all causes)",
         "parameter_col": 1,
         "parameter_transform": "function(x) ymd(x) + 6",
         "sheet_number": 1,
@@ -4289,8 +4289,8 @@
       },
       {
         "class": "Health",
-        "indicator_name": "By age and sex",
-        "type": "Weekly deaths",
+        "indicator_name": "Weekly deaths by age and sex",
+        "type": "Total deaths (all causes)",
         "parameter_col": 1,
         "parameter_transform": "function(x) ymd(x) + 6",
         "sheet_number": 2,
@@ -4340,8 +4340,8 @@
       },
       {
         "class": "Health",
-        "indicator_name": "By age",
-        "type": "Weekly deaths",
+        "indicator_name": "Weekly deaths by age",
+        "type": "Total deaths (all causes)",
         "parameter_col": 1,
         "parameter_transform": "function(x) ymd(x) + 6",
         "sheet_number": 3,
