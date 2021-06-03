@@ -1,7 +1,7 @@
 # Gas consumption by largest users +++ Gas consumption by selected major users
 
 library(openxlsx)
-library(readxl)
+#library(readxl)
 library(dplyr)
 library(stringr)
 library(lubridate)
@@ -145,7 +145,7 @@ load_parameters <- list(
 
 
 filepath_maui <- rownames(file.info(list.files(path, full.names = T, pattern = "Maui.*")))
-header <- read.xlsx(xlsxFile = filepath_maui,
+header <- openxlsx::read.xlsx(xlsxFile = filepath_maui,
                     rows = c(7),
                     skipEmptyCols = TRUE,
                     skipEmptyRows = TRUE,
@@ -154,7 +154,7 @@ header_check <- c("Oaonui.4000000", "Frankley.Road.4000439", "Mangorei.4000485",
                   "Faull.Road.4000653", "Kowhai.Mixing.Station.4000666", "Tikorangi.#2.4000667", "Tikorangi.4000668", "Ngatimaru.Rd.(Delivery).4000669",
                   "Ngatimaru.Rd.(Receipt).4000670", "Tikorangi.#3.(Receipt).4000702", "Tikorangi.#3.(Delivery).4000703", "Turangi.Mixing.Station.4000710",
                   "Mokau.Compressor.Station.4001143", "Pokuru.4002308", "Pirongia.4002374", "Rotowaro.4002906", "Huntly.Power.Station.4002993",
-                  "NZX.(Delivery).THD", "NZX.(Receipt).THR", "TRS.(Delivery).TRSD", "TRS.(Receipt).TRSR", "Balancing.Gas.(Receipt).BGR")
+                  "NZX.(Delivery).THD", "NZX.(Receipt).THR", "TRS.(Delivery).TRSD", "TRS.(Receipt).TRSR", "Balancing.Gas.(Delivery).BGD", "Balancing.Gas.(Receipt).BGR")
 
 if (!identical(names(header), header_check)) stop ("Columns in Maui spreadsheet changed.")
 
