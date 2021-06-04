@@ -2,6 +2,9 @@
 
 library(openxlsx)
 library(dplyr)
+library(tidyr)
+library(stringr)
+library(lubridate)
 
 countries <- c("Australia",
                "Australia - Australian Capital Territory",
