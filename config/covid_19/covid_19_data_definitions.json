@@ -5547,6 +5547,7 @@
           "sourcing":"customized supply via email",
           "script":"weekly_death.R"
       },
+
       {
         "class": "Health",
         "indicator_name": "By age and sex",
