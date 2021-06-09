@@ -2481,8 +2481,8 @@
   },
   {
     "class": "Health",
-    "indicator_name": "By region",
-    "type": "Weekly deaths",
+    "indicator_name": "Weekly deaths by region",
+    "type": "Total deaths (all causes)",
     "source": "Department of Internal Affairs",
     "plot_function": "get_stacked_bar_chart",
     "international": false,
@@ -2494,35 +2494,35 @@
     "groups": [
         {
             "name": "Auckland",
-            "title": "Deaths by region of residence (week ended) - Auckland",
+            "title": "Weekly deaths - Auckland",
             "units": "Number"
           },
       {
         "name": "Wellington",
-        "title": "Deaths by region of residence (week ended) - Wellington",
+        "title": "Weekly deaths - Wellington",
         "units": "Number"
       },
       {
         "name": "Canterbury",
-        "title": "Deaths by region of residence (week ended) - Canterbury",
+        "title": "Weekly deaths - Canterbury",
         "units": "Number"
       },
       {
         "name": "Other North Island regions",
-        "title": "Deaths by region of residence (week ended) - Other North Island regions",
+        "title": "Weekly deaths - Other North Island regions",
         "units": "Number"
       },
       {
         "name": "Other South Island regions",
-        "title": "Deaths by region of residence (week ended) - Other South Island regions",
+        "title": "Weekly deaths - Other South Island regions",
         "units": "Number"
       }
     ]
   },
   {
     "class": "Health",
-    "indicator_name": "By age and sex",
-    "type": "Weekly deaths",
+    "indicator_name": "Weekly deaths by age and sex",
+    "type": "Total deaths (all causes)",
     "source": "Department of Internal Affairs",
     "plot_function": "get_stacked_bar_chart",
     "international": false,
@@ -2534,63 +2534,63 @@
     "groups": [
       {
         "name": "Total",
-        "title": "Deaths by age and sex (week ended) - Total",
+        "title": "Weekly deaths - Total",
         "units": "Number"
       },
       {
         "name": "Total 80 and over",
-        "title": "Deaths by age and sex (week ended) - Total 80 and over",
+        "title": "Weekly deaths - Total 80 and over",
         "units": "Number"
       },
       {
         "name": "Total 65 to 79",
-        "title": "Deaths by age and sex (week ended) - Total 65 and 79",
+        "title": "Weekly deaths - Total 65 and 79",
         "units": "Number"
       },
       {
         "name": "Total under 65",
-        "title": "Deaths by age and sex (week ended) - Total under 64",
+        "title": "Weekly deaths - Total under 65",
         "units": "Number"
       },
 
       {
         "name": "Female 80 and over",
-        "title": "Deaths by age and sex (week ended) - Female 80 and over",
+        "title": "Weekly deaths - Female 80 and over",
         "units": "Number"
       },
       {
         "name": "Female 65 to 79",
-        "title": "Deaths by age and sex (week ended) - Female 65 and 79",
+        "title": "Weekly deaths - Female 65 and 79",
         "units": "Number"
       },
       {
         "name": "Female under 65",
-        "title": "Deaths by age and sex (week ended) - Female under 64",
+        "title": "Weekly deaths - Female under 65",
         "units": "Number"
       }
       ,
       {
         "name": "Male 80 and over",
-        "title": "Deaths by age and sex (week ended) - Male 80 and over",
+        "title": "Weekly deaths - Male 80 and over",
         "units": "Number"
       }
       ,
       {
         "name": "Male 65 to 79",
-        "title": "Deaths by age and sex (week ended) - Male 65 to 79",
+        "title": "Weekly deaths - Male 65 to 79",
         "units": "Number"
       },
       {
         "name": "Male under 65",
-        "title": "Deaths by age and sex (week ended) - Male under 64",
+        "title": "Weekly deaths - Male under 65",
         "units": "Number"
       }
     ]
   },
   {
     "class": "Health",
-    "indicator_name": "By age",
-    "type": "Weekly deaths",
+    "indicator_name": "Weekly deaths by age",
+    "type": "Total deaths (all causes)",
     "source": "Department of Internal Affairs",
     "plot_function": "get_stacked_bar_chart",
     "international": false,
@@ -2602,27 +2602,27 @@
     "groups": [
       {
         "name": "Total",
-        "title": "Deaths by age (week ended) - Total",
+        "title": "Weekly deaths - Total",
         "units": "Number"
       },
       {
         "name": "Under 30",
-        "title": "Deaths by age (week ended) - Under 30",
+        "title": "Weekly deaths - Under 30",
         "units": "Number"
       },
       {
         "name": "30 to 59",
-        "title": "Deaths by age (week ended) - 30 to 59",
+        "title": "Weekly deaths - 30 to 59",
         "units": "Number"
       },
       {
         "name": "60 to 79",
-        "title": "Deaths by age (week ended) - 60 to 79",
+        "title": "Weekly deaths - 60 to 79",
         "units": "Number"
       },
       {
         "name": "80 and over",
-        "title": "Deaths by age (week ended) - 80 and over",
+        "title": "Weekly deaths - 80 and over",
         "units": "Number"
       }
     ]
