@@ -1025,6 +1025,7 @@
     "source_url": "https://www.anz.co.nz/about-us/economic-markets-research/business-outlook/",
     "download": false,
     "frequency":"Fortnightly",
+    "caveats":"Note: June 2021 data is provisional.",
     "groups": [
       {
         "name": "undefined_name",
@@ -1090,6 +1091,7 @@
     "source_url": "https://www.anz.co.nz/about-us/economic-markets-research/business-outlook/",
     "download": false,
     "frequency":"Fortnightly",
+    "caveats":"Note: June 2021 data is provisional.",
     "groups": [
       {
         "name": "undefined_name",
@@ -1148,7 +1150,7 @@
     "international": false,
     "include_date_slider": true,
     "default_lower_range": "2017-01-01",
-    "source_url": "https://www.stats.govt.nz/news/retail-spending-for-2021-peaks-in-april",
+    "source_url": "https://www.stats.govt.nz/information-releases/electronic-card-transactions-may-2021",
     "download": true,
     "frequency":"Monthly",
     "groups": [
@@ -1238,7 +1240,7 @@
     "default_lower_range": "2017-01-01",
     "international": false,
     "include_date_slider": true,
-    "source_url": "https://www.stats.govt.nz/news/retail-spending-for-2021-peaks-in-april",
+    "source_url": "https://www.stats.govt.nz/information-releases/electronic-card-transactions-may-2021",
     "download": true,
     "frequency":"Monthly",
     "groups": [
