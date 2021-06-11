@@ -64,9 +64,6 @@ data <- data %>%
   ) %>%
   select("Parameter", "Year", parameter$group_col, "Cumulative")
 
-file.rename(from = paste0(path, "/COVID 19 - Trade Data - ", names(load_parameters)[[ind]], ".xlsx"),
-            to = paste0(path, "/Previous/COVID 19 - Trade Data - ", names(load_parameters)[[ind]], ".xlsx"))
-
 if (length(setdiff(unique(data[[3]]), parameter[[tolower(parameter$group_col)]])) > 0)
   stop ("New categories added: ", setdiff(unique(data[[3]]), parameter[[tolower(group_col)]]))
 OUT <- createWorkbook()
