@@ -193,8 +193,26 @@ main_plot_server <- function(
     }
   })
 
+  observeEvent(input$indicator_selector, {
+    if(input$indicator_selector != "" && input$indicator_selector != "No indicators"){
+      if (input$type_selector != "" && input$indicator_selector != "" || input$line_selector != "") {
+        # if(input$line_selector == "" && input$line_selector == "undefined_name"){
+        #   print(input$line_selector)
+        #   series <- input_selector
+        # }
+        # else{
+        #   print("line selector has entry")
+        # }
+        key <- paste(indicator_class, input$type_selector, input$indicator_selector, sep = "_")
+        #session$sendCustomMessage('indicator_selected', ifelse(input$line_selector == "",key,paste0(key,input$line_selector)))
+        session$sendCustomMessage('indicator_selected',key)
+      }
+
+    }
+  })
+
   observeEvent(input$line_selector, {
-    if (input$type_selector != "" && input$indicator_selector != "" && input$line_selector != "") {
+    if ((input$type_selector != "" && input$indicator_selector != "") && input$line_selector != "" && input$line_selector != "undefined_name") {
       key <- paste(indicator_class, input$type_selector, input$indicator_selector, sep = "_")
       session$sendCustomMessage('indicator_selected', paste0(key, "_", input$line_selector))
     }
