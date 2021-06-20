@@ -4398,7 +4398,7 @@
         "indicator_name": "United States economic index",
         "type": "Confidence",
         "parameter_col": 1,
-        "parameter_transform": "function(x) ymd(x)",
+        "parameter_transform": "function(x) mdy(x)",
         "sheet_number": 1,
         "value_col": 2,
         "input_units": 1000,
