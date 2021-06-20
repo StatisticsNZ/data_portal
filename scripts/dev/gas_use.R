@@ -93,7 +93,7 @@ load_parameters <- list(
           points = list(
              bertrand = list(
                 id = "4000564",
-                cols = c(1, 12)
+                cols = "P7:Q45"
              ))
        ),
        Methanex_Motunui = list(
@@ -101,11 +101,11 @@ load_parameters <- list(
           points = list(
              faull = list(
                 id = "4000653",
-                cols = c(1, 14)
+                cols = "R7:S45"
              ),
              ngatimaru = list(
                 id = "4000669",
-                cols = c(1, 22))
+                cols = "Z7:AA45")
           )
        ),
        Huntly = list(
@@ -113,7 +113,7 @@ load_parameters <- list(
           points = list(
              huntly = list(
                 id = "4002993",
-                cols = c(1, 40)
+                cols = "AR7:AS45"
              )
           )
        ),
@@ -145,18 +145,6 @@ load_parameters <- list(
 
 
 filepath_maui <- rownames(file.info(list.files(path, full.names = T, pattern = "Maui.*")))
-header <- openxlsx::read.xlsx(xlsxFile = filepath_maui,
-                    rows = c(7),
-                    skipEmptyCols = TRUE,
-                    skipEmptyRows = TRUE,
-                    fillMergedCells = TRUE)
-header_check <- c("Oaonui.4000000", "Frankley.Road.4000439", "Mangorei.4000485", "New.Plymouth.Power.Station.4000530", "Bertrand.Road.(Waitara.Valley).4000564",
-                  "Faull.Road.4000653", "Kowhai.Mixing.Station.4000666", "Tikorangi.#2.4000667", "Tikorangi.4000668", "Ngatimaru.Rd.(Delivery).4000669",
-                  "Ngatimaru.Rd.(Receipt).4000670", "Tikorangi.#3.(Receipt).4000702", "Tikorangi.#3.(Delivery).4000703", "Turangi.Mixing.Station.4000710",
-                  "Mokau.Compressor.Station.4001143", "Pokuru.4002308", "Pirongia.4002374", "Rotowaro.4002906", "Huntly.Power.Station.4002993",
-                  "NZX.(Delivery).THD", "NZX.(Receipt).THR", "TRS.(Delivery).TRSD", "TRS.(Receipt).TRSR", "Balancing.Gas.(Delivery).BGD", "Balancing.Gas.(Receipt).BGR")
-
-if (!identical(names(header), header_check)) stop ("Columns in Maui spreadsheet changed.")
 
 for (ind in 1:length(load_parameters)) {
 indicator <- load_parameters[[ind]]
@@ -188,19 +176,20 @@ for (cat in 1:length(indicator$categories)) {
          }
 
       } else {
-         df_total <- read.xlsx(xlsxFile = filepath_maui,
-                         startRow = 10,
-                         skipEmptyRows = TRUE,
-                         skipEmptyCols = TRUE,
-                         fillMergedCells = TRUE)
-         df_total <- df_total %>% select(point$cols)
+         df_total <- read_excel(path = filepath_maui, range = point$cols, col_names = TRUE)
+         if (!str_detect(names(df_total)[[1]], point$id)) stop ("Column index for: ", point)
+         df_total <- df_total %>% select(-1)
+         date <- read_excel(path = filepath_maui, range = "B7:B45", col_names = TRUE)
+         df_total <- cbind(date, df_total)
          names(df_total) <- c("Date", "Energy")
          df_total$Date <- dmy(df_total$Date)
          df_total$Energy <- round(as.numeric(df_total$Energy), 2)
          df_total <- drop_na(df_total)
+         print(df_total)
       }
 
       master <- rbind(master, df_total) %>%
+         unique() %>%
          group_by(Date) %>%
          summarise(Energy = sum(Energy))
    }
