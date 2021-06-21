@@ -6,6 +6,7 @@
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
         "value_col":[2, 3, 4],
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_names":[
           "Accommodation and Food and Beverage Services",
           "Activity, Travel, and Tour Services",
@@ -26,6 +27,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -47,6 +49,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -68,6 +71,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -89,6 +93,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -110,6 +115,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -131,6 +137,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -152,6 +159,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -173,6 +181,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -194,6 +203,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -215,6 +225,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -236,6 +247,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -257,6 +269,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -278,6 +291,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -299,6 +313,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -320,6 +335,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -341,6 +357,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -362,6 +379,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -383,6 +401,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -404,6 +423,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -425,6 +445,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -446,6 +467,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -467,6 +489,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -488,6 +511,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -509,6 +533,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -530,6 +555,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -551,6 +577,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -572,6 +599,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -593,6 +621,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -614,6 +643,7 @@
         "indicator_name":"Monthly filled jobs - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -635,6 +665,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -656,6 +687,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -677,6 +709,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -698,6 +731,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -719,6 +753,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -740,6 +775,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -761,6 +797,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -782,6 +819,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -803,6 +841,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -824,6 +863,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -845,6 +885,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -866,6 +907,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -887,6 +929,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -908,6 +951,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -929,6 +973,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -950,6 +995,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -971,6 +1017,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -992,6 +1039,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -1013,6 +1061,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -1034,6 +1083,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -1055,6 +1105,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -1076,6 +1127,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -1097,6 +1149,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -1118,6 +1171,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -1139,6 +1193,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -1160,6 +1215,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -1181,6 +1237,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -1202,6 +1259,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -1223,6 +1281,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
@@ -1244,6 +1303,7 @@
         "indicator_name":"Monthly employment earnings - tourism (by RTO)",
         "parameter_col":1,
         "parameter_transform":"function (x) dmy(x)",
+        "date_filter":"function(x) x >= dmy(\"01-10-2019\")",
         "value_col":[2, 3, 4],
         "value_names":[
           "Accommodation and Food and Beverage Services",
