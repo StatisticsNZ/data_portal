@@ -9,5 +9,7 @@ config/config.yaml
 www/tag_manager.html
 *.csv
 *.xlsx
+*.txt
 config/covid_19/covid_19_odata_definitions*
+scripts/reports/dashboard.html
 .Rproj.user
